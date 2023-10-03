@@ -1,0 +1,48 @@
+.container{
+    display: grid;
+    height: 100vh;
+    border: 10px solid black;
+    justify-content: center;
+    align-items: center;
+}
+.gameboard{
+    background-color: skyblue;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 20px;
+    justify-items: center;
+    padding: 20px 20px;
+}
+.card{
+    border: 2px solid rgba(0, 0, 0, 0.583);
+    box-sizing: border-box;
+    padding: 50px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.container>h1{
+    width: fit-content;
+    margin: auto;
+}
+.user>label{
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(0,0,0,0.25);
+    padding: 10px 14px;
+    background-color: rgba(0, 128, 0, 0.21);
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+.user>input{
+    display: none;
+}
+input:checked + label{
+    background-color: green;
+    color: white;
+}
