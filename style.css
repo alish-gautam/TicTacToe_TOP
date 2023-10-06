@@ -9,13 +9,18 @@
     background-color: skyblue;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(3,1fr);
     gap: 20px;
     justify-items: center;
     padding: 20px 20px;
+    overflow: auto;
 }
 .card{
     border: 2px solid rgba(0, 0, 0, 0.583);
+    display: flex;
+    justify-content: center;
+    width: 7vw;
+    height: 7vw;
+    align-items: center;
     box-sizing: border-box;
     padding: 50px;
     font-size: 30px;
