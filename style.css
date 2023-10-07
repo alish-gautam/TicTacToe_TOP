@@ -51,3 +51,23 @@ input:checked + label{
     background-color: green;
     color: white;
 }
+.winnerName{
+    padding: 20px;
+    /* border: 2px solid red; */
+}
+.declareWinner{
+    align-self: center;
+}
+.submitName{
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+.replay{
+    padding: 10px 20px;
+}
+.mainDiv{
+    display: flex;
+    width: 80vw;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
