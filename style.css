@@ -53,21 +53,39 @@ input:checked + label{
 }
 .winnerName{
     padding: 20px;
+    width: 12vw;
+    outline: none;
+    font-size: 18px;
     /* border: 2px solid red; */
 }
 .declareWinner{
-    align-self: center;
+    text-align: center;
+    height:3.5vw;
+    width: 20vw;
 }
 .submitName{
-    padding: 10px 20px;
+    padding: 15px 25px;
+    width: fit-content;
     margin-top: 10px;
+    background-color: greenyellow;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
 }
 .replay{
-    padding: 10px 20px;
+    padding: 15px 25px;
+    width: fit-content;
+    background-color: rgba(0, 0, 255, 0.694);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
 }
 .mainDiv{
     display: flex;
+    align-items: center;
     width: 80vw;
     flex-direction: column;
-    /* border: 2px solid red; */
 }
